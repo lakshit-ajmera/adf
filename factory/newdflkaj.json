@@ -1,0 +1,9 @@
+{
+	"name": "newdflkaj",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "118719e9-5b46-4b87-938c-1de36801dace",
+		"tenantId": "0e497918-3755-481b-9466-08118d0d2c9d"
+	}
+}

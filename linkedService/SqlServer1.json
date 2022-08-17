@@ -1,0 +1,17 @@
+{
+	"name": "SqlServer1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=True;data source=MSI\\SQLEXPRESS;initial catalog=practice",
+			"userName": "MSI\\kesha",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJkN2FkNDExOS0yY2M5LTRiZjYtOGRjNS03MDZmMGM4MmUwZWUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "lkajsharedIR",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

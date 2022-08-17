@@ -1,0 +1,12 @@
+{
+	"name": "lkajsharedIR",
+	"properties": {
+		"type": "SelfHosted",
+		"typeProperties": {
+			"linkedInfo": {
+				"resourceId": "/subscriptions/3109fef6-0c15-4110-b1da-98ba13e49093/resourcegroups/freeresources/providers/Microsoft.DataFactory/factories/KeshavFactory/integrationruntimes/integrationRuntime1",
+				"authorizationType": "Rbac"
+			}
+		}
+	}
+}

@@ -1,0 +1,37 @@
+{
+	"name": "SqlServerTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "StudentId",
+				"type": "nvarchar"
+			},
+			{
+				"name": "StudentName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "GPA",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Branch",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Section",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": ""
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
